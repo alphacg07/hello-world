@@ -22,11 +22,13 @@
   </modules>
 
 <distributionManagement>
-    <repository>
-        <id>tomcat</id>
-        <url>http://10.144.224.154:9090/manager/text</url>
-    </repository>
-</distributionManagement>
+    <site>
+      <id>site-server</id>
+      <name>Test Project Site</name>
+      <url>file:///tmp/maven-project-site</url>
+    </site>
+ </distributionManagement>
+
 
 
   <build>
